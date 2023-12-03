@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#13bd95"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        android:src="@drawable/map"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="19dp"
+        />
+
+
+    <TextView
+        android:id="@+id/lnkLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:text="Welcome"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:onClick="test"/>
+
+    <TextView android:id="@+id/lnkLogin4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="There are 195 countries in the world.You can learn in this app about countries and their flags,national symbols.So you learn and play this game. "
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:onClick="test"/>
+
+
+ <Button
+        android:id="@+id/addBtn5"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="580dp"
+        android:background="#ffffff"
+        android:text="Cool let's go"
+        android:gravity="center"
+        android:textColor="#13bd95"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="480dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="540dp"
+        android:background="#ffffff">
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="480dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="180dp"
+        android:background="#ffffff">
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+

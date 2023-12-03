@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Explore The World</string>
+    <string name="edit">edit</string>
+    <string name="delete">delete</string>
+    <string name="deleteContact" />
+    <string name="yes" />
+    <string name="no" />
+    <string name="name">name</string>
+    <string name="save">save</string>
+    <string name="email">email</string>
+    <string name="country">country</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0080ff"
+    android:layout_gravity="center"
+    >
+    <TextView android:id="@+id/lnkLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Explore the world"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:onClick="test"/>
+
+
+    <RelativeLayout
+        android:layout_width="480dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="130dp"
+        android:background="#ffffff">
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="480dp"
+        android:layout_height="550dp"
+        android:layout_marginTop="160dp"
+        android:background="#ffffff">
+
+        <TextView android:id="@+id/lnkLogi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="*This is an app about the countries.   "
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#0080ff"
+            android:textAlignment="gravity"
+            android:onClick="test"/>
+        *It has their flags,national symbols ect.
+
+        <TextView android:id="@+id/lnkLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:text="*It has their flags,national symbols ect."
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#0080ff"
+            android:textAlignment="gravity"
+            android:onClick="test"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="480dp"
+        android:layout_height="8dp"
+        android:layout_marginTop="730dp"
+        android:background="#ffffff">
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
